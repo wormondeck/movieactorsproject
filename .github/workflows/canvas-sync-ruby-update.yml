@@ -24,8 +24,8 @@ jobs:
         run: gem install github-to-canvas
 
       # Secret stored in learn-co-curriculum Settings/Secrets
-      - name: Sync from .canvas file
-        run: github-to-canvas -a -lr
-        env:
-          CANVAS_API_KEY: ${{ secrets.CANVAS_API_KEY }}
-          CANVAS_API_PATH: ${{ secrets.CANVAS_API_PATH }}
+      # - name: Sync from .canvas file
+      #   run: github-to-canvas -a -lr
+      #   env:
+      #     CANVAS_API_KEY: ${{ secrets.CANVAS_API_KEY }}
+      #     CANVAS_API_PATH: ${{ secrets.CANVAS_API_PATH }}
