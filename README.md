@@ -30,14 +30,14 @@ The directory structure is as follows:
 ├── Pipfile.lock
 ├── README.md
 
-## Generating Your Environment
+## Generate Environment
 
  Then run the following commands to generate the project environment:
 
 pipenv install
 pipenv shell
 
-## Generating Your CLI
+## Generating The CLI
 
 You can run the template CLI with `python lib/cli.py`
 

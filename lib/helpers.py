@@ -11,7 +11,7 @@ def actor_list():
         actor_list = Actor.get_all()
         
         if actor_list:
-            print("\n*** UDATED LIST! ***")
+            print("\n*** UPDATED LIST! ***")
             for i, actor in enumerate(actor_list, start=1):
                 print(f"{i}. {actor.name}")  
         
